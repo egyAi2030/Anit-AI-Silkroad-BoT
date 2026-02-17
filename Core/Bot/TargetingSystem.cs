@@ -28,7 +28,7 @@ namespace SilkroadAIBot.Core.Bot
                 .Select(m => new 
                 { 
                     Mob = m, 
-                    Distance = CalculateDistance(charPos.Value, m.Position) 
+                    Distance = charPos.Value.DistanceTo(m.Position) 
                 })
                 .OrderBy(x => x.Distance)
                 .ToList();
@@ -40,12 +40,6 @@ namespace SilkroadAIBot.Core.Bot
             }
 
             return null;
-        }
-
-        private double CalculateDistance(SRCoord pos1, SRCoord pos2)
-        {
-            // Simple 2D distance for now
-            return Math.Sqrt(Math.Pow(pos1.X - pos2.X, 2) + Math.Pow(pos1.Y - pos2.Y, 2));
         }
 
         public enum TargetPriority
