@@ -1,0 +1,16 @@
+--- Bot Debug Log Started at 2/21/2026 2:21:49 PM ---
+[2026-02-21 14:21:49] [WARNING] Please select your Silkroad folder to begin.
+[2026-02-21 14:22:01] [INFO] Loading PK2 Data...
+[2026-02-21 14:22:02] [INFO] [DataManager] Media.pk2 loaded and indexed.
+[2026-02-21 14:22:03] [INFO] [DataManager] Data.pk2 loaded and indexed.
+[2026-02-21 14:22:03] [INFO] [DataManager] Map.pk2 loaded and NavmeshReader initialized.
+[2026-02-21 14:22:03] [INFO] [DataManager] Discovered Server IP: 192.168.100.9:15779
+[2026-02-21 14:22:03] [INFO] [DataManager] EXACT EXTRACTED IP: '192.168.100.9'
+[2026-02-21 14:22:17] [INFO] Starting Clientless Mode (Connecting directly)...
+[2026-02-21 14:22:17] [INFO] [Login] Connecting to Gateway 192.168.100.9:15779...
+[2026-02-21 14:22:17] [INFO] [Server -> Bot RAW] 25-00-00-50-00-00-0E-64-50-E6-95-F1-97-E7-30-65-00-00-00-86-00-00-00-8F-8D-97-90-D1-02-CF-4F-69-6D-92-11-A9-22-8B-2E-BB-AC-03-13
+[2026-02-21 14:22:17] [INFO] [Server -> Bot RAW] 09-00-00-50-00-00-10-57-2F-BC-6B-F4-53-35-47
+[2026-02-21 14:22:17] [INFO] [Server -> Bot RAW] 10-00-01-20-00-00-0D-00-47-61-74-65-77-61-79-53-65-72-76-65-72-00-05-00-0D-60-00-00-01-01-00-05-20-0B-00-0D-60-00-00-00-01-00-01-04-00-05-00-00-00-02-05-00-0D-60-00-00-01-01-00-05-60-06-00-0D-60-00-00-00-03-00-02-00-02
+[2026-02-21 14:22:17] [INFO] [Login] Connected to Gateway. Sending Version Check (0x6100)...
+[2026-02-21 14:22:33] [WARNING] [Login] Timeout waiting for authentication/redirection.
+[2026-02-21 14:22:33] [ERROR] Clientless login failed.
